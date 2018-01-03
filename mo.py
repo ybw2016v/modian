@@ -9,7 +9,9 @@ def namedog(num):
 	d=[a,b,c]
 	return d
 	pass
-for i in range(0,30):
+n=0
+n=input("终止编号：")
+for i in range(0,n+1):
 	a=namedog(i)
 	newdog=Autodog(a)
 	newdog.readdog()
